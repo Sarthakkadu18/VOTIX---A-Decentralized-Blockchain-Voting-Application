@@ -1,0 +1,11 @@
+/* --- src/index.css --- */
+/* This file includes the base styles for Tailwind CSS. */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* You can add any global custom styles here */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
