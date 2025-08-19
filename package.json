@@ -18,7 +18,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "postinstall": "prisma generate"
   },
   "eslintConfig": {
     "extends": [
@@ -47,4 +48,5 @@
     "tailwindcss": "^3.1.6"
   }
 }
+
 
